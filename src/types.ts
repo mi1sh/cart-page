@@ -7,8 +7,3 @@ export type CartItemType = {
   title: string;
   amount: number;
 }
-
-export type Props = {
-  item: CartItemType;
-  handleAddToCart: (clickedItem: CartItemType) => void;
-}
